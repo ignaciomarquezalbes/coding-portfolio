@@ -21,7 +21,7 @@ The key update formulas are:
 
 xₖ₊₁ = xₖ + αₖ dₖ,
 
-rₖ₊₁ = rₖ + αₖ dₖ
+rₖ₊₁ = rₖ + αₖ dₖ,
 
 βₖ = (rₖ₊₁ᵗ rₖ₊₁) / (rₖᵗ rₖ),
 
