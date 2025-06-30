@@ -12,7 +12,7 @@ Each subfolder contains a standalone implementation of one numerical method, alo
 
 A simple, first-order method that estimates the solution using the slope at the current point.
 
-### [Euler Implicit Method](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-implicit)
+### [Euler Implicit Method](https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/euler-implicit)
 
 A first-order implicit method that uses the slope at the next point, requiring the solution of an algebraic equation at each step.
 
