@@ -31,4 +31,4 @@ where h is the step size, f is the function defining the ODE, and (xₙ, yₙ) i
 - `write_head.m` — Prints a header for formatted output.
 - `write_step.m` — Prints values at each step of the iteration.
 
-> Utility scripts `escribe_cabecera.m` and `escribe_paso.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
+> Utility scripts `write_head.m` and `write_step.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
