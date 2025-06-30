@@ -8,7 +8,7 @@ This repository contains MATLAB implementations of several classical numerical m
 
 Each subfolder contains a standalone implementation of one numerical method, along with a sample ODE problem and supporting scripts for running and analyzing the method.
 
-### [Euler Explicit Method](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/euler-explicit)
+### [Euler Explicit Method](https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/euler-explicit)
 
 A simple, first-order method that estimates the solution using the slope at the current point.
 
