@@ -3,8 +3,7 @@
 This folder contains a MATLAB implementation of the classical fourth-order Runge-Kutta Method
 for numerically solving initial-value problems of ordinary differential equations (ODEs).
 
-**Repository link**: 
-[github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/runge-kutta](https://github.com/ignaciomarquezalbes/ode-numerical-methods/tree/main/runge-kutta)
+**Repository link**: [https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/runge-kutta](https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/runge-kutta)
 
 ## Method Overview
 
