@@ -8,11 +8,9 @@ This folder contains a MATLAB implementation of the Conjugate Gradient Method fo
 
 The Conjugate Gradient Method is an iterative algorithm designed to solve numerically linear systems of the form:
 
-\[
 A x = b,
-\]
 
-where \( A \) is symmetric positive definite. This equivalent to minimizing the quadratic functional: 
+where A is symmetric positive definite. This equivalent to minimizing the quadratic functional: 
 
 f(x) = \frac{1}{2} x^T A x - b^T x,
 
