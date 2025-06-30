@@ -12,15 +12,9 @@ A x = b,
 
 where A is symmetric positive definite. This equivalent to minimizing the quadratic functional: 
 
-f(x) = \frac{1}{2} x^T A x - b^T x,
+f(x) = (1/2) xᵗA x − bᵗx.
 
 Unlike the basic Gradient Method, the Conjugate Gradient method generates conjugate search directions that improve convergence, often requiring fewer iterations.
-
-It solves the equivalent quadratic minimization problem:
-
-\[
-f(x) = \frac{1}{2} x^T A x - b^T x,
-\]
 
 by iteratively updating the solution using conjugate directions \( d_k \) instead of just the negative gradient. The main update formulas are:
 
