@@ -11,7 +11,7 @@ function[x,residue]=grad(A,b,tol,x,maxiter)
 %   x        - Approximate solution
 %   residue  - Final residual norm
 
-exit=fopen('gradopt.sal','w');
+exit=fopen('grad.sal','w');
 
 d=b-A*x;
 
