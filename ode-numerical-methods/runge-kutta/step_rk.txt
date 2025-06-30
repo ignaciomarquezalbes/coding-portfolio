@@ -1,0 +1,25 @@
+function [xn,yn]=paso_rk(f,h,xn,yn)
+
+h2=h*0.5;                           %h/2
+
+sum=feval(f,xn,yn);                % computing kn1
+
+xn=xn+h2;                           % computing xn2=xn3
+
+aux=feval(f,xn,yn+h2*sum);         % computing kn2
+
+sum=sum+2*aux;                    % computing kn1+2*kn2
+
+aux=feval(f,xn,yn+h2*aux);          % computing kn3
+
+sum=sum+2*aux;                    % computing kn1+2*kn2+2*kn3
+
+xn=xn+h2;                           % computing xn4=xn*1=xn+h=xn+(h/2)+(h/2)
+
+aux=feval(f,xn,yn+h*aux);           % computing kn4
+
+sum=sum+aux;                      % computing kn1+2*kn2+2*kn3+kn4
+
+yn=yn+h*sum/6;                     % computing yn+1=yn+h*(kn1+2*kn2+2*kn3+kn4)/6
+
+end
