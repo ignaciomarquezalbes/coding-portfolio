@@ -2,7 +2,7 @@
 
 This repository contains MATLAB implementations of several classical numerical methods for solving initial-value problems of ordinary differential equations (ODEs).
 
-**Repository link**: [github.com/ignaciomarquezalbes/ode-numerical-methods](https://github.com/ignaciomarquezalbes/ode-numerical-methods)
+**Repository link**: [[github.com/ignaciomarquezalbes/ode-numerical-methods](https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods)]
 
 ## Included Methods
 
