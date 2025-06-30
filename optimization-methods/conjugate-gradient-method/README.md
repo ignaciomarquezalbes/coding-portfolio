@@ -17,15 +17,15 @@ f(x) = (1/2) xᵗA x − bᵗx.
 At each iteration, the method generates conjugate search directions that lead to faster convergence compared to the basic Gradient Method, which uses only the negative gradient direction. The method updates the solution by combining previous directions and residuals to efficiently minimize the functional.
 The key update formulas are:
 
-rₖ = A xₖ-b,
-
 αₖ = (rₖᵗ rₖ) / (dₖᵗ A dₖ),
 
-xₖ₊₁ = xₖ - αₖ dₖ,
+xₖ₊₁ = xₖ + αₖ dₖ,
+
+rₖ₊₁ = rₖ + αₖ dₖ
 
 βₖ = (rₖ₊₁ᵗ rₖ₊₁) / (rₖᵗ rₖ),
 
-dₖ₊₁ = rₖ₊₁+ βₖdₖ.
+dₖ₊₁ = βₖdₖ - rₖ₊₁.
 
 Iterations continue until the residual norm falls below a specified tolerance or a maximum number of iterations is reached.
 
