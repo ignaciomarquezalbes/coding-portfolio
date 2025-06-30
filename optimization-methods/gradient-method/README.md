@@ -10,7 +10,7 @@ The Gradient Method with optimal step size is an iterative algorithm for solving
 
 A x = b,
 
-where A is symmetric positive definite. The method is based on minimizing the quadratic functional:
+where A is symmetric positive definite. This equivalent to minimizing the quadratic functional:
 
 f(x) = (1/2) xᵗA x − bᵗx.
 
