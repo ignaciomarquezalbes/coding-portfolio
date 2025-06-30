@@ -1,15 +1,15 @@
 function[x,residue]=grad(A,b,tol,x,maxiter)
 
-% Entrada:
-    % A=coefficient matrix
-    % b=independent term
-    % tol=tolerance
-    % x=initial value
-    % maxiter= maximum number of iterations
+% Input:
+%   A        - Coefficient matrix
+%   b        - Right-hand side vector
+%   tol      - Tolerance for convergence
+%   x        - Initial guess
+%   maxiter  - Maximum number of iterations
 
-%Salida:
-    % x= solution
-    % residue=residue of the system
+% Output:
+%   x        - Approximate solution
+%   residue  - Final residual norm
 
 exit=fopen('gradopt.sal','w');
 
@@ -21,15 +21,11 @@ for k=1:maxiter;
     residue=sqrt(norm_d);
     
     if residue<tol
-        fprintf('Convergence after \n');
-        fprintf('%i \n',k);
-	fprintf('iterations \n');
-        fprintf('\n');
+        fprintf('Convergence after %d iterations\n\n', k);
         fprintf('Solution:\n');
-        fprintf('%e \n',x);
-        fprintf('\n');
-        fprintf('Residue:\n');
-        fprintf('%e \n', residue);
+        fprintf('%e\n', x);
+        fprintf('\nResidue:\n');
+        fprintf('%e\n', residue);
         return
     end
     
