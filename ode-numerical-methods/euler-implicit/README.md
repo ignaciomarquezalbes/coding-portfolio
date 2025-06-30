@@ -35,4 +35,4 @@ thus, the method needs to solve an algebraic equation to find yₙ₊₁ (handle
 - `write_head.m` — Prints a header for formatted output.
 - `write_step.m` — Prints values at each step of the iteration.
 
-> Utility scripts `escribe_cabecera.m` and `escribe_paso.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
+> Utility scripts `write_head.` and `write_step.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
