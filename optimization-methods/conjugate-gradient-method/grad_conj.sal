@@ -1,0 +1,16 @@
+IT=1, norma=5.000000e+01 
+diferencia=2.946278e+00 
+
+IT=2, norma=4.513889e+00 
+diferencia=5.422653e-01 
+
+IT=3, norma=2.308917e-01 
+diferencia=1.271463e-01 
+
+IT=4, norma=1.404424e-02 
+diferencia=3.162831e-02 
+
+IT=5, norma=8.131957e-04 
+diferencia=7.583383e-03 
+
+convergencia lograda 
