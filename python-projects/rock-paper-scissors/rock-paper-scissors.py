@@ -57,7 +57,7 @@ def play_game():
         time.sleep(1)
 
         if p1_wins == 2 or p2_wins == 2:
-            os.system("clear")  # Clear before final result
+            os.system("clear")  
             print("GAME OVER!\n")
             if p1_wins == 2:
                 print(f"Player 1 wins the best of 3 after {round_num} rounds!\n")
@@ -77,7 +77,7 @@ os.system("clear")
 while True:
     play_game()
 
-    os.system("clear")  # Clear before replay prompt
+    os.system("clear") 
     while True:
         replay = input("\nPlay again? (y/n): ").strip().lower()
         if replay in ('y', 'n'):
