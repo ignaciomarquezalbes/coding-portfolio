@@ -35,7 +35,7 @@ These projects reflect my academic background and focus on coding mathematical m
   - Euler's implicit method
   - Runge-Kutta method
 - **optimization-methods** (MATLAB):
-  - Gradient descent
+  - Gradient descent method
   - Conjugate gradient method
 
 ---
