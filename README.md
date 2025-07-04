@@ -1,4 +1,3 @@
-
 # Coding Portfolio
 
 Welcome to my coding portfolio! This is a collection of small projects showcasing my programming experience, ranging from academic work in numerical mathematics to smaller self-directed coding exercises.
@@ -15,9 +14,9 @@ This portfolio reflects both the structured, math-oriented coding from my academ
 
 ---
 
-## ?? Portfolio Overview
+## Portfolio Overview
 
-### ?? fun-and-practice-projects
+### fun-and-practice-projects
 
 These are beginner-friendly coding exercises created for learning and practice. They reflect my progress in Python and C++, and include classic games and logic exercises.
 
@@ -28,7 +27,7 @@ These are beginner-friendly coding exercises created for learning and practice. 
 
 ---
 
-### ?? math-projects
+### math-projects
 
 These projects reflect my academic background and focus on coding mathematical methods, using MATLAB to explore numerical analysis and optimization techniques.
 
