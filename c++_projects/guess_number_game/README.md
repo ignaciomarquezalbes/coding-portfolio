@@ -1,4 +1,4 @@
-# Guess the Number
+# Guess the number game
 
 A simple C++ console game where the player tries to guess a randomly selected integer number within a certain number of attempts.
 
