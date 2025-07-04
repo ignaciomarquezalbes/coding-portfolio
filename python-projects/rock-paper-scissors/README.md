@@ -1,11 +1,18 @@
 # Rock Paper Scissors (Best of 3)
 
-A simple command-line Rock Paper Scissors game in Python.
+A simple two-player console game in Python where players compete in a best-of-3 rock-paper-scissors match.
 
-Two players compete in a best-of-3 format. Players input their moves secretly, and the game tracks scores until someone wins 2 rounds!
+The game works as follows:
+
+- Each player secretly inputs their choice of Rock (R), Paper (P), or Scissors (S).
+- The game validates inputs and compares the choices.
+- The winner of each round is announced with a short reason (e.g., “paper covers rock”).
+- The first player to win 2 rounds wins the game.
+- After the game ends, players can choose to play again.
 
 ## Code Structure
 
-- `get_valid_choice(player)` — Prompts a player for a valid choice (R, P, or S) securely using hidden input  
-- `determine_winner(p1, p2)` — Determines the winner of a single round and returns the reason  
-- `play_game()` — Contains the main game loop, manages rounds, scores, and final results  
+- `get_valid_choice(player)` — Prompts the specified player to input a valid choice (R, P, or S) while hiding input for secrecy  
+- `determine_winner(p1, p2)` — Compares both players’ choices and returns the winner and the winning reason  
+- `play_game()` — Manages rounds, scorekeeping, input/output, and game-over conditions  
+- Main loop — Runs the game repeatedly and handles replay prompts 
