@@ -27,8 +27,8 @@ This process is repeated for a fixed number of steps.
 
 - `main.m` — Entry point; loads problem data and calls the solver.
 - `runge_kutta.m` — Core implementation of the 4th-order Runge-Kutta algorithm.
-- `rhs_function.m` — Defines the right-hand side function *f(x, y)* of the problem.
-- `solution.m` — (Optional) Exact solution *y(x)*, used for error estimation.
+- `rhs_function.m` — Defines the right-hand side function f(x, y) of the problem.
+- `solution.m` — (Optional) Exact solution y(x), used for error estimation.
 - `problem_data.m` — Specifies parameters such as step size, number of steps, and initial conditions.
 - `step_rk.m` — Computes one step of the Runge-Kutta algorithm using intermediate slopes.
 - `write_head.m` — Displays a header for formatted output.
