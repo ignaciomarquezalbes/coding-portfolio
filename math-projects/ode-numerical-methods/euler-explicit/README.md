@@ -9,12 +9,12 @@ The Explicit Euler method is a first-order numerical technique used to approxima
   y'(x) = f(x, y),  
   y(x₀) = y₀.
 
-It estimates the solution by stepping forward using the slope defined at the current point:
+It estimates the solution by stepping forward using the slope defined at the current point. Explicitly, given the initial x₀, y₀, the next points are computed as:
 
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
 
-where h is the step size, and f is the function defining the problem.
+where h is the step size, and f is the function defining the problem. This process is repeated for a fixed number of steps determined by the user.
 
 ## Code Structure
 
