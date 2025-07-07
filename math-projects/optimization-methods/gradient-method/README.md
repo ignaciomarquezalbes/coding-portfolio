@@ -12,7 +12,7 @@ where A is symmetric positive definite. This is equivalent to minimizing the qua
 
   f(x) = (1/2) xᵗA x − bᵗx.
 
-At each iteration, the method moves in the direction of the negative gradient of f, with a step size that minimizes f along that direction. The update formulas are:
+At each iteration, the method moves in the direction of the negative gradient of f, with a step size that minimizes f along that direction. Given an initial guess x₀, the update formulas are:
 
   dₖ = b − A xₖ  
   αₖ = (dₖᵗ dₖ) / (dₖᵗ A dₖ)  
