@@ -1,19 +1,15 @@
-# Rock-Paper-Scissors (Best of 3)
+# Fun and Practice Projects
 
-A simple two-player console game written in Python, where players compete in a best-of-3 rock-paper-scissors match.
+This folder contains small coding exercises created for learning and experimentation. Most of them are beginner-friendly games or logic challenges built to improve my fluency in Python and C++.
 
-## Gameplay Overview
+## Projects
 
-- Each player secretly inputs their choice of Rock (R), Paper (P), or Scissors (S).
-- The game validates inputs and compares the choices.
-- The winner of each round is announced with a short reason (e.g., ?paper covers rock?).
-- The first player to win 2 rounds wins the game.
-- After the game ends, players are prompted to play again.
+- [**guess-number-game**](./guess-number-game) (C++)  
+  A simple number guessing game with input validation and repeated guess detection.
 
-## Code Structure
+- [**hangman**](./hangman) (Python)  
+  A text-based Hangman game where the player guesses a hidden word one letter at a time.
 
-- `get_valid_choice(player)` — Prompts the specified player to enter a valid choice (R, P, or S), using hidden input for secrecy.
-- `determine_winner(p1, p2)` — Compares both players? choices and returns the winner and a reason.
-- `play_game()` — Manages rounds, scorekeeping, input/output, and game-over conditions.
-- **Main loop** — Runs the game repeatedly and handles replay prompts.
+- [**rock-paper-scissors**](./rock-paper-scissors) (Python)  
+  A two-player best-of-3 Rock-Paper-Scissors game with input secrecy and round-by-round feedback.
 
