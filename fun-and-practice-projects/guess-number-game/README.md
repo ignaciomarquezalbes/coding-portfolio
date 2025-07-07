@@ -12,9 +12,9 @@ A simple console game written in C++, where the player tries to guess a randomly
 
 ## Code Structure
 
-- `IsInteger(input)` ? Checks whether a given string is a valid integer.
-- `IsNew(item, list)` ? Verifies that a guess has not been repeated.
-- `CustomSettings(max, attempts)` ? Prompts the user to define the guessing range and number of attempts.
-- `Game(max, attempts)` ? Runs the main game loop, handling guessing, validation, and feedback.
-- `Replay()` ? Asks the user whether they want to play again and returns a boolean value.
+- `IsInteger(input)` — Checks whether a given string is a valid integer.
+- `IsNew(item, list)` — Verifies that a guess has not been repeated.
+- `CustomSettings(max, attempts)` — Prompts the user to define the guessing range and number of attempts.
+- `Game(max, attempts)` — Runs the main game loop, handling guessing, validation, and feedback.
+- `Replay()` — Asks the user whether they want to play again and returns a boolean value.
 
