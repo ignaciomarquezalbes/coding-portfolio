@@ -12,8 +12,9 @@ The Implicit Euler method is a first-order numerical technique used to approxima
 It estimates the solution by stepping forward using the slope at the next point:
 
   xₙ₊₁ = xₙ + h,  
-  yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁)
+  yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁),
 
+where h is the step size  and f is the function defining the ODE. 
 In contrast with the Explicit Euler method, this formulation is implicit — the new approximation yₙ₊₁ appears on both sides of the equation. As a result, each step requires solving an algebraic equation. This implementation uses MATLAB's `fsolve` to handle that.
 
 ## Code Structure
