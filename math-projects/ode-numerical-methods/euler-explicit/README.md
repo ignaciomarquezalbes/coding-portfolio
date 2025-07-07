@@ -1,34 +1,29 @@
 # Explicit Euler Method – Numerical Solution of ODEs
 
-This folder contains a MATLAB implementation of the Explicit Euler Method for numerically solving initial-value problems of ordinary differential equations (ODEs).
-
-**Repository link**: [https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/euler-explicit](https://github.com/ignaciomarquezalbes/coding-portfolio/tree/main/ode-numerical-methods/euler-explicit)
+This folder contains a MATLAB implementation of the Explicit Euler method for numerically solving initial-value problems for ordinary differential equations (ODEs).
 
 ## Method Overview
 
-The Explicit Euler Method is a first-order numerical integration technique used to approximate solutions of equations of the form:
+The Explicit Euler method is a first-order numerical technique used to approximate solutions of equations of the form:
 
-y'(x) = f(x, y),
+  y'(x) = f(x, y),  
+  y(x₀) = y₀.
 
-y(x₀) = y₀.
+It estimates the solution by stepping forward using the slope defined at the current point:
 
-It approximates the solution by taking small steps along the curve, using the slope defined by the differential equation. 
-Explicitly, the algorithm computes successive values using:
+  xₙ₊₁ = xₙ + h,  
+  yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
 
-xₙ₊₁ = xₙ + h,
+where `h` is the step size, and `f` is the function defining the ODE.
 
-yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
+## Code Structure
 
-where h is the step size, f is the function defining the ODE, and (xₙ, yₙ) is the current point. 
-
-## Folder Structure
-
-- `main.m` — Entry point. Loads problem data and calls the solver.
-- `euler_explicit.m` — Implements the Explicit Euler algorithm.
-- `rhs_function.m` — Defines the function *f(x, y)* for the ODE system.
-- `solution.m` — Defines the exact solution *y(x)* for optional error estimation (it must agree with the function in `rhs_function.m`).
-- `problem_data.m` — Contains all problem parameters (step size, initial conditions, etc.).
-- `write_head.m` — Prints a header for formatted output.
-- `write_step.m` — Prints values at each step of the iteration.
+- `main.m` — Entry point; loads problem data and calls the solver.
+- `euler_explicit.m` — Core implementation of the Explicit Euler algorithm.
+- `rhs_function.m` — Defines the right-hand side function *f(x, y)* of the ODE.
+- `solution.m` — (Optional) Exact solution *y(x)*, used for error estimation.
+- `problem_data.m` — Specifies parameters such as step size, initial conditions, and interval.
+- `write_head.m` — Displays a header for formatted output.
+- `write_step.m` — Prints values at each integration step.
 
 > Utility scripts `write_head.m` and `write_step.m` were provided in coursework and are included here (translated to English) to handle formatted console/file output.
