@@ -1,6 +1,6 @@
 # Explicit Euler Method – Numerical Solution of ODEs
 
-This folder contains a MATLAB implementation of the Explicit Euler method for numerically solving initial-value problems for ordinary differential equations (ODEs).
+This folder contains a MATLAB implementation of the Explicit Euler method for numerically solving initial-value problems for ordinary differential equations.
 
 ## Method Overview
 
@@ -14,13 +14,13 @@ It estimates the solution by stepping forward using the slope defined at the cur
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
 
-where h is the step size, and f is the function defining the ODE.
+where h is the step size, and f is the function defining the problemm.
 
 ## Code Structure
 
 - `main.m` — Entry point; loads problem data and calls the solver.
 - `euler_explicit.m` — Core implementation of the Explicit Euler algorithm.
-- `rhs_function.m` — Defines the right-hand side function *f(x, y)* of the ODE.
+- `rhs_function.m` — Defines the right-hand side function *f(x, y)* of the problem.
 - `solution.m` — (Optional) Exact solution *y(x)*, used for error estimation.
 - `problem_data.m` — Specifies parameters such as step size, initial conditions, and interval.
 - `write_head.m` — Displays a header for formatted output.
