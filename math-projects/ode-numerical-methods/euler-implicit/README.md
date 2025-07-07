@@ -9,7 +9,7 @@ The Implicit Euler method is a first-order numerical technique used to approxima
   y'(x) = f(x, y),  
   y(x₀) = y₀.
 
-It estimates the solution by stepping forward using the slope at the next point:
+It estimates the solution by stepping forward using the slope at the next point. Explicitly, given the initial x₀, y₀, the next points are computed as:
 
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁),
