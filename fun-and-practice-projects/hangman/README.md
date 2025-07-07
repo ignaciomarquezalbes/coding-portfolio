@@ -13,7 +13,7 @@ A simple console-based Hangman game written in Python, where the player tries to
 
 ## Code Structure
 
-- `obtain_word()` ?€” Retrieves a random word from an online source or selects from a fallback list if needed.
+- `obtain_word()` ? Retrieves a random word from an online source or selects from a fallback list if needed.
 - `display_word(word, guessed)` ?€” Displays the current word state with guessed letters and underscores.
 - `play_game()` ?€” Runs the main game loop, handling user input, validation, and game state.
 - **Main loop** ?€” Repeats the game and handles replay prompts.
