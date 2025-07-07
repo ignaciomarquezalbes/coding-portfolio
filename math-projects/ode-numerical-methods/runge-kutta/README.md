@@ -16,10 +16,10 @@ It improves upon simpler methods (like the Euler methods) by evaluating the slop
 
 where:
 
-  k₁ = f(xₙ, yₙ)  
-  k₂ = f(xₙ + h/2, yₙ + h·k₁/2)  
-  k₃ = f(xₙ + h/2, yₙ + h·k₂/2)  
-  k₄ = f(xₙ + h, yₙ + h·k₃)
+  k₁ = f(xₙ, yₙ),  
+  k₂ = f(xₙ + h/2, yₙ + h·k₁/2),  
+  k₃ = f(xₙ + h/2, yₙ + h·k₂/2),  
+  k₄ = f(xₙ + h, yₙ + h·k₃).
 
 This process is repeated for a fixed number of steps.
 
