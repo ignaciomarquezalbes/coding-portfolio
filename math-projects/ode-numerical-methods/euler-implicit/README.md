@@ -14,7 +14,7 @@ It estimates the solution by stepping forward using the slope at the next point.
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h * f(xₙ₊₁, yₙ₊₁),
 
-where h is the step size  and f is the function defining the ODE. 
+where h is the step size  and f is the function defining the ODE. This process is repeated for a fixed number of steps. 
 In contrast with the Explicit Euler method, this formulation is implicit — the new approximation yₙ₊₁ appears on both sides of the equation. As a result, each step requires solving an algebraic equation. This implementation uses MATLAB's `fsolve` to handle that.
 
 ## Code Structure
@@ -23,7 +23,7 @@ In contrast with the Explicit Euler method, this formulation is implicit — the
 - `euler_implicit.m` — Core implementation of the Implicit Euler algorithm.
 - `rhs_function.m` — Defines the right-hand side function *f(x, y)* of the problem.
 - `solution.m` — (Optional) Exact solution *y(x)*, used for error estimation.
-- `problem_data.m` — Specifies parameters such as step size, initial conditions, and interval.
+- `problem_data.m` — Specifies parameters such as step size, number of steps and initial conditions.
 - `write_head.m` — Displays a header for formatted output.
 - `write_step.m` — Prints values at each integration step.
 
