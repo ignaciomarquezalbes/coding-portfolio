@@ -14,7 +14,7 @@ It estimates the solution by stepping forward using the slope defined at the cur
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h * f(xₙ, yₙ),
 
-where h is the step size, and f is the function defining the problem. This process is repeated for a fixed number of steps determined by the user.
+where h is the step size, and f is the function defining the problem. This process is repeated for a fixed number of steps.
 
 ## Code Structure
 
@@ -22,7 +22,7 @@ where h is the step size, and f is the function defining the problem. This proce
 - euler_explicit.m — Core implementation of the Explicit Euler algorithm.
 - rhs_function.m — Defines the right-hand side function *f(x, y)* of the problem.
 - solution.m — (Optional) Exact solution *y(x)*, used for error estimation.
-- problem_data.m — Specifies parameters such as step size, initial conditions, and interval.
+- problem_data.m — Specifies parameters such as step size, number of steps and initial conditions.
 - write_head.m — Displays a header for formatted output.
 - write_step.m — Prints values at each integration step.
 
