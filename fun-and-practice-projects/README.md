@@ -12,8 +12,8 @@ A simple two-player console game written in Python, where players compete in a b
 
 ## Code Structure
 
-- `get_valid_choice(player)` ? Prompts the specified player to enter a valid choice (R, P, or S), using hidden input for secrecy.
-- `determine_winner(p1, p2)` ? Compares both players? choices and returns the winner and a reason.
-- `play_game()` ? Manages rounds, scorekeeping, input/output, and game-over conditions.
-- **Main loop** ? Runs the game repeatedly and handles replay prompts.
+- `get_valid_choice(player)` — Prompts the specified player to enter a valid choice (R, P, or S), using hidden input for secrecy.
+- `determine_winner(p1, p2)` — Compares both players? choices and returns the winner and a reason.
+- `play_game()` — Manages rounds, scorekeeping, input/output, and game-over conditions.
+- **Main loop** — Runs the game repeatedly and handles replay prompts.
 
