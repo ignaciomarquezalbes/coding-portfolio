@@ -20,8 +20,8 @@ where h is the step size, and f is the function defining the problem. This proce
 
 - main.m — Entry point; loads problem data and calls the solver.
 - euler_explicit.m — Core implementation of the Explicit Euler algorithm.
-- rhs_function.m — Defines the right-hand side function *f(x, y)* of the problem.
-- solution.m — (Optional) Exact solution *y(x)*, used for error estimation.
+- rhs_function.m — Defines the right-hand side function f(x, y) of the problem.
+- solution.m — (Optional) Exact solution y(x), used for error estimation.
 - problem_data.m — Specifies parameters such as step size, number of steps and initial conditions.
 - write_head.m — Displays a header for formatted output.
 - write_step.m — Prints values at each integration step.
