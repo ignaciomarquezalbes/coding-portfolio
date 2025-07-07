@@ -9,7 +9,7 @@ The Runge-Kutta method is a higher-order numerical technique used to approximate
   y'(x) = f(x, y),  
   y(x₀) = y₀.
 
-It improves upon simpler methods (like the Euler methods) by evaluating the slope at multiple points within each step to increase accuracy. Given initial values `x₀`, `y₀`, the next points are computed as:
+It improves upon simpler methods (like the Euler methods) by evaluating the slope at multiple points within each step to increase accuracy. Given initial values x₀, y₀, the next points are computed as:
 
   xₙ₊₁ = xₙ + h,  
   yₙ₊₁ = yₙ + h·(k₁ + 2k₂ + 2k₃ + k₄)/6,
