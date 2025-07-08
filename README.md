@@ -1,6 +1,6 @@
 # Coding Portfolio
 
-Welcome to my coding portfolio! This is a collection of small projects showcasing my programming experience, ranging from academic work in numerical mathematics to smaller self-directed coding exercises.
+Welcome to my coding portfolio! This is a selection of small projects showcasing my programming experience, ranging from academic work in numerical mathematics to smaller self-directed coding exercises.
 
 ## About Me
 
