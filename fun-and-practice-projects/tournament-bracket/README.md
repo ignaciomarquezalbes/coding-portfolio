@@ -6,7 +6,7 @@ Let `P` be a probability matrix where each element `p_ij` represents the probabi
 
 The probability of team *i* reaching round *r* is computed recursively as:
 
-$p_{i,r} = p_{i,r-1} * \sum_{j in Opp(i,r)} (p_{j,r-1} * p_ij),$
+$$p_{i,r} = p_{i,r-1} * \sum_{j \in Opp(i,r)} (p_{j,r-1} * p_ij),$$
 
 where  $p_{i,r}$ is the probability of team *i* reaching the *r* round, and $Opp(i,r)$ is the set of possible opponents for team *i* in round `r`. For consistency, we set $p_{i,0}$ = 1 since, at round 0, all teams have probability 1 of being in the tournament.
 
