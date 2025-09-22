@@ -13,5 +13,5 @@ This folder contains small coding exercises created for learning and experimenta
 - [**rock-paper-scissors**](./rock-paper-scissors) (Python)  
   A two-player best-of-3 Rock-Paper-Scissors game with input secrecy and round-by-round feedback.
 
-- [**tournament-bracket**](./tournament-bracket) (Python)
+- [**tournament-bracket**](./tournament-bracket) (Python)  
   A program that calculates the probability of each team winning a single-elimination tournament based on a probability matrix.
