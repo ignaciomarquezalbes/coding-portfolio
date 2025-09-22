@@ -2,7 +2,21 @@
 
 This program calculates the probability of each team winning a **single-elimination tournament**.  
 
-The input is a probability matrix `P` where each element `p_ij` represents the probability that team *i* beats team *j*. Using this matrix and the tournament structure, the program computes the probability that each team advances through each round and ultimately wins the tournament. 
+Let `P` be a probability matrix where each element `p_ij` represents the probability that team *i* beats team *j*. Using this matrix and the tournament structure, the program computes the probability that each team advances through each round and ultimately wins the tournament.  
+
+The probability of team *i* reaching round *r* is computed recursively as:
+
+p_{i,r} = p_{i,r-1} * sum_{j in Opp(i,r)} (p_{j,r-1} * p_ij),
+
+where  `p_{i,r}` is the probability of team *i* reaching the *r* round, and `Opp(i,r)` is the set of possible opponents for team *i* in round `r`. For consistency, we set p_{i,0} = 1 since, at round 0, all teams have probability 1 of being in the tournament.
+
+The set of possible opponents is determined by the function `Opps_round(i,r)` according to the bracket structure: 
+
+- Teams are grouped by their position in the bracket  
+- In round 1, team 0 plays team 1, team 2 plays team 3, etc.  
+- In later rounds, possible opponents are the winners of the previous matches in the same half of the bracket  
+
+This ensures that the probability calculation respects the fixed bracket structure and accounts for all possible paths to victory.
 
 ## Program Overview  
  
