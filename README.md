@@ -23,6 +23,7 @@ These are beginner-friendly coding exercises created for learning and practice. 
 - **guess-number-game** (C++): A simple number guessing game with input validation and repeated guess detection.
 - **hangman** (Python): A text-based version of the classic Hangman game.
 - **rock-paper-scissors** (Python): A best-of-3 Rock-Paper-Scissors game with basic logic.
+- **tournament-bracket** (Python): A program that calculates the probability of each team winning a single-elimination tournament.
 
 ---
 
