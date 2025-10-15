@@ -2,7 +2,7 @@
 
 This program calculates the probability of each team winning a **single-elimination tournament**.  
 
-Let $P$ be a probability matrix where each element $p_{ij}4 represents the probability that team $i$ beats team $j$. Using this matrix and the tournament structure, the program computes the probability that each team advances through each round and ultimately wins the tournament.  
+Let $P$ be a probability matrix where each element $p_{ij}$ represents the probability that team $i$ beats team $j$. Using this matrix and the tournament structure, the program computes the probability that each team advances through each round and ultimately wins the tournament.  
 
 The probability of team $i$ reaching round $r$ is computed recursively as:
 
