@@ -20,7 +20,7 @@ This ensures that the probability calculation respects the fixed bracket structu
 
 ## Program Overview  
  
-- The user inputs the number of rounds, which determines the number of teams ($N = 2^rounds$).  
+- The user inputs the number of rounds, which determines the number of teams ($N = 2^{rounds}$).  
 - A probability matrix is generated randomly (values between 0 and 1, rounded to 2 decimals).  
 - The main function `Tourn_prob_calculator(P)` computes the probability of each team winning the entire tournament.  
 
