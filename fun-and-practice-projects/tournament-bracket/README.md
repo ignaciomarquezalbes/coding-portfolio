@@ -16,7 +16,7 @@ The set of possible opponents is determined by the function `Opps_round(i,r)` ac
 - In round 1, team 0 plays team 1, team 2 plays team 3, etc.  
 - In later rounds, possible opponents are the winners of the previous matches in the same half of the bracket  
 
-This ensures that the probability calculation respects the fixed bracket structure and accounts for all possible paths to victory.
+This ensures that the probability calculation respects the fixed bracket structure and accounts for all possible paths to victory. For more information on the problem and the logic behind it, you can have a look at the presentation included in this folder.
 
 ## Program Overview  
  
