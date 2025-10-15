@@ -12,4 +12,4 @@ The projects focus on two key areas:
 - [**optimization-methods**](./optimization-methods)  
   Iterative methods for solving symmetric positive definite linear systems, including gradient descent and conjugate gradient.
 
-More information on each method and its corresponding code can be found in the subfolders
+More information on each method and its corresponding code can be found in the subfolders.
